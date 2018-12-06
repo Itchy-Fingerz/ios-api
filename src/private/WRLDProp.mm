@@ -121,7 +121,7 @@
     m_pPropsApi->SetElevationMode(m_propId, [WRLDProp MakeElevationMode:_elevationMode]);
 }
 
-#pragma mark - WRLDPolygon (Private)
+#pragma mark - WRLDProp (Private)
 
 + (Eegeo::Positioning::ElevationMode::Type) MakeElevationMode:(WRLDElevationMode) elevationMode
 {
