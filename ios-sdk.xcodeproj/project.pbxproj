@@ -46,10 +46,8 @@
 		521807B11EB9E30D0070ACDD /* WRLDCoordinateBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 521807B01EB9E30D0070ACDD /* WRLDCoordinateBounds.m */; };
 		521807B31EB9E34B0070ACDD /* WRLDCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 521807B21EB9E34B0070ACDD /* WRLDCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		526F9AC91EC4B92A006F49C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F9AC11EC4B92A006F49C4 /* AppDelegate.m */; };
-		526F9ACA1EC4B92A006F49C4 /* AppMapViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F9AC31EC4B92A006F49C4 /* AppMapViewDelegate.m */; };
 		526F9ACB1EC4B92A006F49C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526F9AC41EC4B92A006F49C4 /* Assets.xcassets */; };
 		526F9ACD1EC4B92A006F49C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F9AC61EC4B92A006F49C4 /* main.m */; };
-		526F9ACE1EC4B92A006F49C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F9AC81EC4B92A006F49C4 /* ViewController.m */; };
 		526F9AD11EC4B93B006F49C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526F9ACF1EC4B93B006F49C4 /* Main.storyboard */; };
 		528A5C7D1EDD9BDA00C5454F /* WRLDPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 528A5C7C1EDD9B8600C5454F /* WRLDPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		528A5C7F1EDD9BE200C5454F /* WRLDPolygon.mm in Sources */ = {isa = PBXBuildFile; fileRef = 528A5C791EDD9B7800C5454F /* WRLDPolygon.mm */; };
@@ -57,6 +55,25 @@
 		52BF5A0F1F013F2200720DF0 /* WRLDMapOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF5A0E1F013F2200720DF0 /* WRLDMapOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52BF5A121F014E9A00720DF0 /* WRLDMapOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF5A101F014E7000720DF0 /* WRLDMapOptions.m */; };
 		544BF29AE96C1DBFC8D1C548 /* libPods-WrldSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D487709F794FC9A95CA12653 /* libPods-WrldSdk.a */; };
+		5BCF686C245AC0A20048EB6C /* MapScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF685C245AC0A10048EB6C /* MapScreenViewModel.m */; };
+		5BCF686D245AC0A20048EB6C /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF685E245AC0A10048EB6C /* GlobalState.m */; };
+		5BCF686E245AC0A20048EB6C /* WrldPoiSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF685F245AC0A10048EB6C /* WrldPoiSearchService.m */; };
+		5BCF686F245AC0A20048EB6C /* MapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF6862245AC0A10048EB6C /* MapScreenViewController.m */; };
+		5BCF687C245AC1130048EB6C /* PhoneLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF6876245AC1130048EB6C /* PhoneLayout.storyboard */; };
+		5BCF687D245AC1130048EB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF6878245AC1130048EB6C /* LaunchScreen.storyboard */; };
+		5BCF687E245AC1130048EB6C /* TabletLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF687A245AC1130048EB6C /* TabletLayout.storyboard */; };
+		5BCF687F245AC14D0048EB6C /* WrldNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6866245AC0A10048EB6C /* WrldNav.framework */; };
+		5BCF6880245AC14D0048EB6C /* WrldNav.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6866245AC0A10048EB6C /* WrldNav.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCF6881245AC14E0048EB6C /* WrldNavSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6867245AC0A10048EB6C /* WrldNavSearch.framework */; };
+		5BCF6882245AC14E0048EB6C /* WrldNavSearch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6867245AC0A10048EB6C /* WrldNavSearch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCF6883245AC1500048EB6C /* WrldNavWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6868245AC0A10048EB6C /* WrldNavWidget.framework */; };
+		5BCF6884245AC1500048EB6C /* WrldNavWidget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6868245AC0A10048EB6C /* WrldNavWidget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCF6885245AC1510048EB6C /* WrldNavWrld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6864245AC0A10048EB6C /* WrldNavWrld.framework */; };
+		5BCF6886245AC1510048EB6C /* WrldNavWrld.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6864245AC0A10048EB6C /* WrldNavWrld.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCF6887245AC1520048EB6C /* WRLDSearchWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6865245AC0A10048EB6C /* WRLDSearchWidget.framework */; };
+		5BCF6888245AC1520048EB6C /* WRLDSearchWidget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6865245AC0A10048EB6C /* WRLDSearchWidget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCF6889245AC1550048EB6C /* WrldUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6869245AC0A10048EB6C /* WrldUtils.framework */; };
+		5BCF688A245AC1550048EB6C /* WrldUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCF6869245AC0A10048EB6C /* WrldUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65B6A4C9209318F000F17DEE /* WRLDPrecacheOperation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65B6A4C6209312F500F17DEE /* WRLDPrecacheOperation.mm */; };
 		65B6A4DD2097154100F17DEE /* WRLDPrecacheOperationResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65B6A4DA20970F9200F17DEE /* WRLDPrecacheOperationResult.mm */; };
 		65B6A4DE2097155C00F17DEE /* WRLDPrecacheOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B6A4D920970F0C00F17DEE /* WRLDPrecacheOperationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,8 +297,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5BCF6886245AC1510048EB6C /* WrldNavWrld.framework in Embed Frameworks */,
+				5BCF688A245AC1550048EB6C /* WrldUtils.framework in Embed Frameworks */,
+				5BCF6880245AC14D0048EB6C /* WrldNav.framework in Embed Frameworks */,
 				E03110041EB0E08B00002E88 /* Wrld.framework in Embed Frameworks */,
+				5BCF6884245AC1500048EB6C /* WrldNavWidget.framework in Embed Frameworks */,
+				5BCF6888245AC1520048EB6C /* WRLDSearchWidget.framework in Embed Frameworks */,
 				2C27ECF01EC1DEF900A9E677 /* WrldWidgets.framework in Embed Frameworks */,
+				5BCF6882245AC14E0048EB6C /* WrldNavSearch.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,19 +360,32 @@
 		521807B21EB9E34B0070ACDD /* WRLDCoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDCoordinateBounds.h; sourceTree = "<group>"; };
 		526F9AC01EC4B92A006F49C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DevApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		526F9AC11EC4B92A006F49C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DevApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		526F9AC21EC4B92A006F49C4 /* AppMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMapViewDelegate.h; path = DevApp/AppMapViewDelegate.h; sourceTree = SOURCE_ROOT; };
-		526F9AC31EC4B92A006F49C4 /* AppMapViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppMapViewDelegate.m; path = DevApp/AppMapViewDelegate.m; sourceTree = SOURCE_ROOT; };
 		526F9AC41EC4B92A006F49C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DevApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		526F9AC51EC4B92A006F49C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DevApp/Info.plist; sourceTree = SOURCE_ROOT; };
 		526F9AC61EC4B92A006F49C4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DevApp/main.m; sourceTree = SOURCE_ROOT; };
-		526F9AC71EC4B92A006F49C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DevApp/ViewController.h; sourceTree = SOURCE_ROOT; };
-		526F9AC81EC4B92A006F49C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DevApp/ViewController.m; sourceTree = SOURCE_ROOT; };
 		526F9AD01EC4B93B006F49C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DevApp/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		528A5C791EDD9B7800C5454F /* WRLDPolygon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WRLDPolygon.mm; sourceTree = "<group>"; };
 		528A5C7C1EDD9B8600C5454F /* WRLDPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDPolygon.h; sourceTree = "<group>"; };
 		528A5C801EDDB93B00C5454F /* WRLDElevationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDElevationMode.h; sourceTree = "<group>"; };
 		52BF5A0E1F013F2200720DF0 /* WRLDMapOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDMapOptions.h; sourceTree = "<group>"; };
 		52BF5A101F014E7000720DF0 /* WRLDMapOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRLDMapOptions.m; sourceTree = "<group>"; };
+		5BCF685C245AC0A10048EB6C /* MapScreenViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScreenViewModel.m; sourceTree = "<group>"; };
+		5BCF685D245AC0A10048EB6C /* MapScreenViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScreenViewModel.h; sourceTree = "<group>"; };
+		5BCF685E245AC0A10048EB6C /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
+		5BCF685F245AC0A10048EB6C /* WrldPoiSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrldPoiSearchService.m; sourceTree = "<group>"; };
+		5BCF6861245AC0A10048EB6C /* MapScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScreenViewController.h; sourceTree = "<group>"; };
+		5BCF6862245AC0A10048EB6C /* MapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScreenViewController.m; sourceTree = "<group>"; };
+		5BCF6864245AC0A10048EB6C /* WrldNavWrld.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldNavWrld.framework; sourceTree = "<group>"; };
+		5BCF6865245AC0A10048EB6C /* WRLDSearchWidget.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WRLDSearchWidget.framework; sourceTree = "<group>"; };
+		5BCF6866245AC0A10048EB6C /* WrldNav.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldNav.framework; sourceTree = "<group>"; };
+		5BCF6867245AC0A10048EB6C /* WrldNavSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldNavSearch.framework; sourceTree = "<group>"; };
+		5BCF6868245AC0A10048EB6C /* WrldNavWidget.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldNavWidget.framework; sourceTree = "<group>"; };
+		5BCF6869245AC0A10048EB6C /* WrldUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldUtils.framework; sourceTree = "<group>"; };
+		5BCF686A245AC0A10048EB6C /* WrldPoiSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrldPoiSearchService.h; sourceTree = "<group>"; };
+		5BCF686B245AC0A10048EB6C /* GlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalState.h; sourceTree = "<group>"; };
+		5BCF6877245AC1130048EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PhoneLayout.storyboard; sourceTree = "<group>"; };
+		5BCF6879245AC1130048EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BCF687B245AC1130048EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabletLayout.storyboard; sourceTree = "<group>"; };
 		650E368E21B58843003A5E73 /* WRLDProp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDProp.h; sourceTree = "<group>"; };
 		650FA1C721B182DF00A75D96 /* WRLDProp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WRLDProp.mm; sourceTree = "<group>"; };
 		65B6A4C52090BDF200F17DEE /* WRLDPrecacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRLDPrecacheOperation.h; sourceTree = "<group>"; };
@@ -577,8 +613,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCF6885245AC1510048EB6C /* WrldNavWrld.framework in Frameworks */,
+				5BCF6889245AC1550048EB6C /* WrldUtils.framework in Frameworks */,
+				5BCF6887245AC1520048EB6C /* WRLDSearchWidget.framework in Frameworks */,
+				5BCF687F245AC14D0048EB6C /* WrldNav.framework in Frameworks */,
 				E03110031EB0E08B00002E88 /* Wrld.framework in Frameworks */,
+				5BCF6883245AC1500048EB6C /* WrldNavWidget.framework in Frameworks */,
 				2C27ECEF1EC1DEF900A9E677 /* WrldWidgets.framework in Frameworks */,
+				5BCF6881245AC14E0048EB6C /* WrldNavSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +707,37 @@
 			path = public;
 			sourceTree = "<group>";
 		};
+		5BCF685B245AC0A10048EB6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF685C245AC0A10048EB6C /* MapScreenViewModel.m */,
+				5BCF685D245AC0A10048EB6C /* MapScreenViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BCF6860245AC0A10048EB6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF6861245AC0A10048EB6C /* MapScreenViewController.h */,
+				5BCF6862245AC0A10048EB6C /* MapScreenViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BCF6863245AC0A10048EB6C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF6864245AC0A10048EB6C /* WrldNavWrld.framework */,
+				5BCF6865245AC0A10048EB6C /* WRLDSearchWidget.framework */,
+				5BCF6866245AC0A10048EB6C /* WrldNav.framework */,
+				5BCF6867245AC0A10048EB6C /* WrldNavSearch.framework */,
+				5BCF6868245AC0A10048EB6C /* WrldNavWidget.framework */,
+				5BCF6869245AC0A10048EB6C /* WrldUtils.framework */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
 		D39018B2402324986ABDDC69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -711,13 +784,19 @@
 		E0601E4C1EAFBF510050EB45 /* DevApp */ = {
 			isa = PBXGroup;
 			children = (
+				5BCF6878245AC1130048EB6C /* LaunchScreen.storyboard */,
+				5BCF6876245AC1130048EB6C /* PhoneLayout.storyboard */,
+				5BCF687A245AC1130048EB6C /* TabletLayout.storyboard */,
+				5BCF686B245AC0A10048EB6C /* GlobalState.h */,
+				5BCF685E245AC0A10048EB6C /* GlobalState.m */,
+				5BCF6860245AC0A10048EB6C /* View */,
+				5BCF685B245AC0A10048EB6C /* ViewModel */,
+				5BCF6863245AC0A10048EB6C /* Widgets */,
+				5BCF686A245AC0A10048EB6C /* WrldPoiSearchService.h */,
+				5BCF685F245AC0A10048EB6C /* WrldPoiSearchService.m */,
 				526F9AC41EC4B92A006F49C4 /* Assets.xcassets */,
 				526F9AC01EC4B92A006F49C4 /* AppDelegate.h */,
 				526F9AC11EC4B92A006F49C4 /* AppDelegate.m */,
-				526F9AC21EC4B92A006F49C4 /* AppMapViewDelegate.h */,
-				526F9AC31EC4B92A006F49C4 /* AppMapViewDelegate.m */,
-				526F9AC71EC4B92A006F49C4 /* ViewController.h */,
-				526F9AC81EC4B92A006F49C4 /* ViewController.m */,
 				526F9AC51EC4B92A006F49C4 /* Info.plist */,
 				526F9ACF1EC4B93B006F49C4 /* Main.storyboard */,
 				E0601E4D1EAFBF510050EB45 /* Supporting Files */,
@@ -1162,7 +1241,6 @@
 				E0310FF81EB0E08B00002E88 /* Frameworks */,
 				E0310FF91EB0E08B00002E88 /* Headers */,
 				E0310FFA1EB0E08B00002E88 /* Resources */,
-				9FA608DC0E00AC11FE14EFD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1204,17 +1282,15 @@
 				TargetAttributes = {
 					2CB2C53D1EC1D76400C0B401 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QBCVJ28BRW;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E0310FFB1EB0E08B00002E88 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = QBCVJ28BRW;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E0601E491EAFBF510050EB45 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = QBCVJ28BRW;
+						DevelopmentTeam = FZXL4C9474;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1224,6 +1300,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1283,6 +1360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				526F9AD11EC4B93B006F49C4 /* Main.storyboard in Resources */,
+				5BCF687E245AC1130048EB6C /* TabletLayout.storyboard in Resources */,
+				5BCF687D245AC1130048EB6C /* LaunchScreen.storyboard in Resources */,
+				5BCF687C245AC1130048EB6C /* PhoneLayout.storyboard in Resources */,
 				526F9ACB1EC4B92A006F49C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1302,21 +1382,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./scripts/remove_symbol_from_library.sh libapps-on-maps-cpp11 Pods/wrld_cpp_sdk AppDelegate\n./scripts/remove_symbol_from_library.sh libapps-on-maps-cpp11-sim Pods/wrld_cpp_sdk AppDelegate";
-		};
-		9FA608DC0E00AC11FE14EFD5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WrldSdk/Pods-WrldSdk-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		B9C743DAE1EC313416817F32 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1435,11 +1500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F9ACE1EC4B92A006F49C4 /* ViewController.m in Sources */,
+				5BCF686E245AC0A20048EB6C /* WrldPoiSearchService.m in Sources */,
 				2C32D20B1EBB42AD00FC1B12 /* DebugIndoorControl.m in Sources */,
 				526F9AC91EC4B92A006F49C4 /* AppDelegate.m in Sources */,
-				526F9ACA1EC4B92A006F49C4 /* AppMapViewDelegate.m in Sources */,
+				5BCF686D245AC0A20048EB6C /* GlobalState.m in Sources */,
 				526F9ACD1EC4B92A006F49C4 /* main.m in Sources */,
+				5BCF686C245AC0A20048EB6C /* MapScreenViewModel.m in Sources */,
+				5BCF686F245AC0A20048EB6C /* MapScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1467,6 +1534,30 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		5BCF6876245AC1130048EB6C /* PhoneLayout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCF6877245AC1130048EB6C /* Base */,
+			);
+			name = PhoneLayout.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCF6878245AC1130048EB6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCF6879245AC1130048EB6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCF687A245AC1130048EB6C /* TabletLayout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCF687B245AC1130048EB6C /* Base */,
+			);
+			name = TabletLayout.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1474,11 +1565,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1491,6 +1583,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrld.sdk.ios.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1505,11 +1599,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1522,6 +1617,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrld.sdk.ios.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1538,11 +1635,12 @@
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1555,6 +1653,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrld.sdk.ios;
 				PRODUCT_NAME = Wrld;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1567,11 +1667,12 @@
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1584,6 +1685,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrld.sdk.ios;
 				PRODUCT_NAME = Wrld;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1686,10 +1789,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = FZXL4C9474;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevApp/Widgets",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/DevApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1703,10 +1810,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QBCVJ28BRW;
+				DEVELOPMENT_TEAM = FZXL4C9474;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DevApp/Widgets",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/DevApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";

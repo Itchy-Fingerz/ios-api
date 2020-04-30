@@ -123,7 +123,7 @@
         
         WRLDIndoorMapFloor* currentFloor = [self currentFloor];
         
-        [_pIndoorControl setFloorName:currentFloor.name];
+      //  [_pIndoorControl setFloorName:currentFloor.name];
         
         NSMutableArray<NSString*>* floorNames = [NSMutableArray array];
         WRLDIndoorMap* indoorMap = [_mapView activeIndoorMap];
@@ -168,9 +168,9 @@
     NSUInteger numberOfFloors = [[_mapView activeIndoorMap].floors count];
     float interpolation = floorInterpolation * (numberOfFloors - 1);
     int floorIndex = lroundf(interpolation);
-    NSString* floorName = [[_mapView activeIndoorMap].floors[floorIndex] name];
+//    NSString* floorName = [[_mapView activeIndoorMap].floors[floorIndex] name];
     
-    [_pIndoorControl setFloorName:floorName];
+  //  [_pIndoorControl setFloorName:floorName];
     [_pIndoorControl setSelectedFloor:floorIndex];
     [_mapView setFloorInterpolation:interpolation];
 }

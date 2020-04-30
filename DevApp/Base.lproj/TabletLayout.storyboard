@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uvV-Vr-EQF">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map Screen View Controller-->
+        <scene sceneID="xMg-zH-MEG">
+            <objects>
+                <viewController storyboardIdentifier="TabletLayout" id="uvV-Vr-EQF" customClass="MapScreenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vBS-FA-hT8">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyS-w0-o3a" customClass="WRLDMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ryw-mJ-7iC" customClass="WRLDNavWidgetTablet" customModule="WrldNavWidget">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qyS-w0-o3a" firstAttribute="bottom" secondItem="CXB-zi-7mk" secondAttribute="bottom" id="4pr-Yx-Vm4"/>
+                            <constraint firstItem="qyS-w0-o3a" firstAttribute="trailing" secondItem="CXB-zi-7mk" secondAttribute="trailing" id="J23-vT-E0e"/>
+                            <constraint firstItem="Ryw-mJ-7iC" firstAttribute="trailing" secondItem="CXB-zi-7mk" secondAttribute="trailing" id="bgN-JU-pzW"/>
+                            <constraint firstItem="qyS-w0-o3a" firstAttribute="top" secondItem="vBS-FA-hT8" secondAttribute="top" id="chp-Zu-vW9"/>
+                            <constraint firstItem="Ryw-mJ-7iC" firstAttribute="bottom" secondItem="CXB-zi-7mk" secondAttribute="bottom" id="dUp-lq-bsq"/>
+                            <constraint firstItem="Ryw-mJ-7iC" firstAttribute="top" secondItem="vBS-FA-hT8" secondAttribute="top" id="eKq-20-lA6"/>
+                            <constraint firstItem="Ryw-mJ-7iC" firstAttribute="leading" secondItem="CXB-zi-7mk" secondAttribute="leading" id="hH0-Th-wY4"/>
+                            <constraint firstItem="qyS-w0-o3a" firstAttribute="leading" secondItem="CXB-zi-7mk" secondAttribute="leading" id="q6s-W7-A4O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CXB-zi-7mk"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="qyS-w0-o3a" id="L2V-vK-euW"/>
+                        <outlet property="navWidget" destination="Ryw-mJ-7iC" id="tyA-Xu-fos"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EeD-N3-SqJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246.09375" y="127.73437499999999"/>
+        </scene>
+    </scenes>
+</document>
